@@ -9,7 +9,7 @@ const corsOptions = {
   allowedHeaders: ["Content-Type", "Authorization"],
 };
 
-// Use CORS middleware
+// Use CORS middleware here
 app.use(cors(corsOptions));
 
 // Your other middleware and route handlers
