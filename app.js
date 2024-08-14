@@ -4,7 +4,7 @@ const app = express();
 
 // Configure CORS options
 const corsOptions = {
-  origin: "http://your-frontend-domain.com", // Replace with the domain of your frontend app
+  origin: "*", // Replace with the domain of your frontend app
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
